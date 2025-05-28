@@ -1,10 +1,16 @@
-package atividadesPOOsenac.trabalhoDeProgramacao3AP2;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
 
 import java.nio.file.WatchEvent;
 import java.util.Scanner; // Importando scanner
 
 public class Main {
-    public static void main (String[]args) {
+    public static void main (String[]args) throws SQLException {
+
+        DBconection conectar = new DBconection();
+        Connection conexao = conectar.get();
 
         //Criando objeto de scanner
         Scanner teclado = new Scanner(System.in);
@@ -20,24 +26,24 @@ public class Main {
             System.out.println("| Selecione a opção desejada:");
             System.out.println("| [1] - Cadastrar Aluno");
             System.out.println("| [2] - Fazer Login");
-            System.out.println("| [0] - Sair");
+            System.out.println("| [3] - Sair");
             System.out.printf("\n");
             System.out.printf("User: ");
             int op_user = teclado.nextInt();
 
             switch (op_user) {
 
-                case 1:
+                // case 1:
 
 
                     
-                break;
+                // break;
 
-                case 2:
+                // case 2:
 
 
                     
-                break;
+                // break;
 
                 case 3:
 

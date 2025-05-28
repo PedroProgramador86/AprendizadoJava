@@ -1,5 +1,5 @@
 // Informando o direcionamento do pacote
-package atividadesPOOsenac.trabalhoDeProgramacao3AP2;
+// package atividadesPOOsenac.trabalhoDeProgramacao3AP2;
 
 public class Aluno { // Classe Aluno
 
